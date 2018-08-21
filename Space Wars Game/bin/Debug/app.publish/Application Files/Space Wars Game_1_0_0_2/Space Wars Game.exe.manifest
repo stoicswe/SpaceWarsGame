@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Space Wars Game.exe" version="1.0.0.2" publicKeyToken="aea0766b320631ad" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Space Wars Game" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Space Wars Game.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Space Wars Game.exe" size="148976">
+      <assemblyIdentity name="Space Wars Game" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ijSzdDwJXrm60iNP/1yFN7wMWWtxXaj3sNTVLu6Kfos=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Space Wars Game.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=TARANOSHI-LAP\taranoshi" issuerKeyHash="fe69a3277ca4237950bdb289be4543981cbe7361" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VfiPjMeXAp8Zl0yfKckbj+bunj8b2MBPGywN9pXRzfs=</DigestValue></Reference></SignedInfo><SignatureValue>E/rhDdbehEOltlIgXJC4adwJhwgFwBLzvgB3oysxnHBW8k6Ri+iVVRuwXm0r67Z6ZX8kW8HbvbB1DEK97ofT6GX3hvREPqicnhi4sTp3veKThxCY5bm5PLdsIfIY+PzM5hA8hAUlgBRSi7WN1NuDnH1slZzRD55nCW02c87gooc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xxVemEF2E/eGvsapdCJGKwE7XIvQeBntsE0+5IC4vIj38VNKFDkIKFoPk3fNtSnbLOL/v4/xxOi9gz3BT8AwewTOV7TPUUAD2g1Sz8cniaG/LmfFq1hPpB9SoPBuWrYuWBfLJ2NX12X53Kgw1pt2tyejq/zV98WD2Yob6WUOKgU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fbcdd195f60d2c1b4fc0d81b3f9eeee68f1bc9299f4c97199f0297c78c8ff855" Description="" Url=""><as:assemblyIdentity name="Space Wars Game.exe" version="1.0.0.2" publicKeyToken="aea0766b320631ad" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TARANOSHI-LAP\taranoshi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RcAnLoxp4Hz5Hk0+8hw6rWIG/sgqpd2oL2x5yG+YNH8=</DigestValue></Reference></SignedInfo><SignatureValue>fr7wfsmjJTSk5E+hZO1YqiIobgaWS3osNNt2AgdjUrk91FFuz1Fz7TDT1Cr4azkgYBBbBEqod2uVx+bcZVUcrVoNiOBN0foQ9cLapr04XiDVduxSmVw9Xqu5V9PMJRo46dV4S5pEzgl0EUO+5Tlb372RPier/nnVKuiX0WP5tH0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xxVemEF2E/eGvsapdCJGKwE7XIvQeBntsE0+5IC4vIj38VNKFDkIKFoPk3fNtSnbLOL/v4/xxOi9gz3BT8AwewTOV7TPUUAD2g1Sz8cniaG/LmfFq1hPpB9SoPBuWrYuWBfLJ2NX12X53Kgw1pt2tyejq/zV98WD2Yob6WUOKgU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQezvDwk7HZ6hPHqUx0zrNcjANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4AVABBAFIAQQBOAE8AUwBIAEkALQBMAEEAUABcAHQAYQByAGEAbgBvAHMAaABpMB4XDTE1MDgyNTIyMjU1MFoXDTE2MDgyNTA0MjU1MFowOTE3MDUGA1UEAx4uAFQAQQBSAEEATgBPAFMASABJAC0ATABBAFAAXAB0AGEAcgBhAG4AbwBzAGgAaTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxxVemEF2E/eGvsapdCJGKwE7XIvQeBntsE0+5IC4vIj38VNKFDkIKFoPk3fNtSnbLOL/v4/xxOi9gz3BT8AwewTOV7TPUUAD2g1Sz8cniaG/LmfFq1hPpB9SoPBuWrYuWBfLJ2NX12X53Kgw1pt2tyejq/zV98WD2Yob6WUOKgUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBLTcpNt+cFj+oR+iKnj28yYitnKrPZwRU0tWtMhqxR19gfucx04rgYf1xTw6q3CFO5wi7aXp/6luo0rGMmI+/uOzN3n1FCO5C1NTRo8uwOOZOoZ1rlxmSvkDBw1CAXVnpdkiuP/aSb8Jx4R41aNp6uF9CzuglU4i1Ch9hMiESxWg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

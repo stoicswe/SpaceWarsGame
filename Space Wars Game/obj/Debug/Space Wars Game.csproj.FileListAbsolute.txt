@@ -1,0 +1,10 @@
+c:\users\taranoshi\documents\visual studio 2015\Projects\Space Wars Game\Space Wars Game\bin\Debug\Space Wars Game.exe.config
+c:\users\taranoshi\documents\visual studio 2015\Projects\Space Wars Game\Space Wars Game\obj\Debug\Space Wars Game.csprojResolveAssemblyReference.cache
+c:\users\taranoshi\documents\visual studio 2015\Projects\Space Wars Game\Space Wars Game\bin\Debug\Space Wars Game.exe
+c:\users\taranoshi\documents\visual studio 2015\Projects\Space Wars Game\Space Wars Game\bin\Debug\Space Wars Game.pdb
+c:\users\taranoshi\documents\visual studio 2015\Projects\Space Wars Game\Space Wars Game\obj\Debug\Space Wars Game.exe
+c:\users\taranoshi\documents\visual studio 2015\Projects\Space Wars Game\Space Wars Game\obj\Debug\Space Wars Game.pdb
+c:\users\taranoshi\documents\visual studio 2015\Projects\Space Wars Game\Space Wars Game\bin\Debug\Space Wars Game.exe.manifest
+c:\users\taranoshi\documents\visual studio 2015\Projects\Space Wars Game\Space Wars Game\bin\Debug\Space Wars Game.application
+c:\users\taranoshi\documents\visual studio 2015\Projects\Space Wars Game\Space Wars Game\obj\Debug\Space Wars Game.exe.manifest
+c:\users\taranoshi\documents\visual studio 2015\Projects\Space Wars Game\Space Wars Game\obj\Debug\Space Wars Game.application
